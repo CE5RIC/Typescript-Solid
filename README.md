@@ -121,3 +121,16 @@ Then, if this list attempts to calculate the surface for an element, the correct
 If you have a function which operates with a figure by using its parameter, you don’t have to define it three times — once for a triangle, a circle, and a rectangle.
 
 You can define it once and accept a Figure as an argument. Whether you pass a triangle, circle or a rectangle — as long as they implement CalculateParamter(), their type doesn’t matter.
+
+
+Now we got that out of the way, we can focus on the SOLID principle.
+
+#### (S)
+
+### Single Responsibility Principle (SRP)
+
+The single responsibility principle (SRP) states that every class or module in a program should have responsibility 
+for just a single piece of that program’s functionality. Further, the elements of that responsibility should be 
+encapsulated by the responsible class rather than spread out in unrelated classes. 
+The developer and chief evangelist of the SRP, Robert C. Martin, describes a responsibility as a “reason to change.
+” So, another way of putting the SRP is to say, as Martin does, that “a class should have only one reason to change.”
