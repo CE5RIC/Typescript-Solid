@@ -125,12 +125,21 @@ You can define it once and accept a Figure as an argument. Whether you pass a tr
 
 Now we got that out of the way, we can focus on the SOLID principle.
 
-#### (S)
 
-### Single Responsibility Principle (SRP)
+### (S)ingle Responsibility Principle (SRP)
 
 The single responsibility principle (SRP) states that every class or module in a program should have responsibility 
 for just a single piece of that program’s functionality. Further, the elements of that responsibility should be 
 encapsulated by the responsible class rather than spread out in unrelated classes. 
 The developer and chief evangelist of the SRP, Robert C. Martin, describes a responsibility as a “reason to change.
 ” So, another way of putting the SRP is to say, as Martin does, that “a class should have only one reason to change.”
+
+
+### (O)pen-closed Principle (OCP)
+
+We can break down the OCP into two constituent parts, defining code that is “open for extension” as code to which you can add new behavior, 
+and code that is “closed for modification” as code that is “inviolate” in that it’s design should never be changed once implemented. 
+In other words, the OCP says that you can always add new code to an object, 
+but should never change the design of old code.
+
+
