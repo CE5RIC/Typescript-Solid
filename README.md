@@ -143,3 +143,11 @@ In other words, the OCP says that you can always add new code to an object,
 but should never change the design of old code.
 
 
+### (L)iskov Substitution Principle (LSP)
+
+Objects in a program should be substitutable with instances of their subtypes without altering the correctness of that program.
+If we expect a certain behavior from a type, its subtypes should honor it.
+I actually like the following sentence regarding this principle: "Once you strip out the academic / technical language,
+the Liskov Substitution Principle is really just saying that subtypes should not break the contracts set by their parent types".
+
+
