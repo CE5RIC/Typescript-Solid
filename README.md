@@ -151,3 +151,10 @@ I actually like the following sentence regarding this principle: "Once you strip
 the Liskov Substitution Principle is really just saying that subtypes should not break the contracts set by their parent types".
 
 
+### (I)nterface Segregation Principle (ISP)
+
+The interface segregation principle tries to tell you that you should not enforce a client to implement something that
+he doesn't need. It is better to create a lot of small, granular interfaces that then allows us to reuse interfaces to
+multiple different classes.
+
+
