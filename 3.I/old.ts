@@ -114,8 +114,8 @@ document.querySelector('#login-form').addEventListener('submit', (event) => {
 });
 
 resetPasswordElement.addEventListener('click', (event) => {
-   event.preventDefault();
+    event.preventDefault();
 
-   let user = loginAsAdminElement.checked ? admin : guest;
-   user.resetPassword();
+    let user = loginAsAdminElement.checked ? admin : guest;
+    user.resetPassword();
 });
